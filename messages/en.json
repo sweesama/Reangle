@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "brand": "Reangle",
+    "by": "by Mzu",
+    "login": "Sign In"
+  },
+  "hero": {
+    "title": "Redefine Your Image Perspective",
+    "subtitle": "One image, infinite possibilities.",
+    "description": "AI-powered multi-angle view generation."
+  },
+  "uploader": {
+    "title": "Upload Image",
+    "subtitle": "Supports JPG, PNG, WebP formats",
+    "dragText": "Click to upload or drag image here",
+    "sizeHint": "Recommended 1024×1024 or larger",
+    "changeImage": "Change Image"
+  },
+  "angleSelector": {
+    "title": "Select Angle",
+    "subtitle": "Choose camera perspective",
+    "customPrompt": "Custom Prompt (Optional)",
+    "customPlaceholder": "e.g., Front view of subject",
+    "generateButton": "Generate Image",
+    "generating": "Generating...",
+    "uploadFirst": "Please upload an image first",
+    "angles": {
+      "rotateLeft45": "Rotate 45° Left",
+      "rotateRight45": "Rotate 45° Right",
+      "rotateLeft90": "Rotate 90° Left",
+      "rotateRight90": "Rotate 90° Right",
+      "topDown": "Top-Down View",
+      "lowAngle": "Low-Angle View",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out"
+    }
+  },
+  "results": {
+    "title": "Results",
+    "count": "{{count}} images generated",
+    "share": "Share",
+    "download": "Download",
+    "hint": "Hover to see download button"
+  },
+  "features": {
+    "title1": "8 Preset Angles",
+    "desc1": "Rotate, tilt, zoom — switch perspectives with one click",
+    "title2": "AI-Powered",
+    "desc2": "Maintains consistent subject, lighting, and style",
+    "title3": "Lightning Fast",
+    "desc3": "8 seconds to render, instant high-quality results"
+  },
+  "cta": {
+    "button": "Get Started",
+    "hint": "Sign up for 3 free credits"
+  },
+  "footer": {
+    "copyright": "© 2024 Mzu. All rights reserved."
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "loginSubtitle": "Welcome back to Reangle",
+    "registerSubtitle": "Create your account and get 3 free credits",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "loading": "Loading...",
+    "authError": "Authentication failed. Please try again.",
+    "registerSuccess": "Registration successful! Please sign in.",
+    "switchToRegister": "Don't have an account? Sign up",
+    "switchToLogin": "Already have an account? Sign in",
+    "freeCredits": "Get 3 free credits upon registration!",
+    "signOut": "Sign Out",
+    "credits": "Credits",
+    "creditsRemaining": "{{count}} credits remaining"
+  }
+}

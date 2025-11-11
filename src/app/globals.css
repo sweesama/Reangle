@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #1d1d1f;
+  --gray-light: #f5f5f7;
+  --gray-medium: #86868b;
+  --blue-apple: #0071e3;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* 苹果风格滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 苹果风格卡片 */
+.apple-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.apple-card:hover {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* 苹果风格按钮 */
+.apple-button {
+  background: var(--blue-apple);
+  color: #ffffff;
+  border-radius: 980px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.17648;
+  letter-spacing: -0.022em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.apple-button:hover {
+  background: #0077ed;
+  transform: scale(1.02);
+}
+
+.apple-button-secondary {
+  background: transparent;
+  color: var(--blue-apple);
+  border: 1px solid var(--blue-apple);
+  border-radius: 980px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 17px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.apple-button-secondary:hover {
+  background: var(--blue-apple);
+  color: #ffffff;
+}

@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "brand": "Reangle",
+    "by": "by Mzu",
+    "login": "登录"
+  },
+  "hero": {
+    "title": "重新定义图片视角",
+    "subtitle": "一张图片，无限可能。",
+    "description": "AI 智能生成多角度视图。"
+  },
+  "uploader": {
+    "title": "上传图片",
+    "subtitle": "支持 JPG、PNG、WebP 格式",
+    "dragText": "点击上传或拖拽图片",
+    "sizeHint": "推荐 1024×1024 或更大",
+    "changeImage": "更换图片"
+  },
+  "angleSelector": {
+    "title": "选择角度",
+    "subtitle": "点击切换相机视角",
+    "customPrompt": "自定义提示词（可选）",
+    "customPlaceholder": "例如：正面拍摄主体",
+    "generateButton": "生成图片",
+    "generating": "生成中...",
+    "uploadFirst": "请先上传图片",
+    "angles": {
+      "rotateLeft45": "左转45°",
+      "rotateRight45": "右转45°",
+      "rotateLeft90": "左转90°",
+      "rotateRight90": "右转90°",
+      "topDown": "俯视角度",
+      "lowAngle": "仰视角度",
+      "zoomIn": "镜头拉近",
+      "zoomOut": "镜头拉远"
+    }
+  },
+  "results": {
+    "title": "生成结果",
+    "count": "共 {{count}} 张图片",
+    "share": "分享",
+    "download": "下载",
+    "hint": "悬停查看下载按钮"
+  },
+  "features": {
+    "title1": "8种预设角度",
+    "desc1": "左右旋转、俯视仰视、镜头缩放，一键切换视角",
+    "title2": "AI 智能处理",
+    "desc2": "保持主体、光照、风格完美一致",
+    "title3": "极速生成",
+    "desc3": "8秒完成渲染，即刻获得高质量结果"
+  },
+  "cta": {
+    "button": "开始使用",
+    "hint": "注册即送 3 次免费体验"
+  },
+  "footer": {
+    "copyright": "© 2024 Mzu. 保留所有权利。"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "loginSubtitle": "欢迎回到 Reangle",
+    "registerSubtitle": "创建账户，免费获得3次生成机会",
+    "email": "邮箱",
+    "password": "密码",
+    "loginButton": "登录",
+    "registerButton": "注册",
+    "loading": "加载中...",
+    "authError": "认证失败，请重试。",
+    "registerSuccess": "注册成功！请登录。",
+    "switchToRegister": "还没有账户？立即注册",
+    "switchToLogin": "已有账户？立即登录",
+    "freeCredits": "注册即送3次免费生成！",
+    "signOut": "退出登录",
+    "credits": "剩余次数",
+    "creditsRemaining": "剩余 {{count}} 次"
+  }
+}
